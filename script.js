@@ -1,4 +1,4 @@
-// Fungsi untuk menghapus semua todo
+// Fungsi untuk menghapus semua to do
 function deleteAllTodos() {
     if (todos.length === 0) {
         alert('Tidak ada tugas untuk dihapus.');
@@ -10,7 +10,7 @@ function deleteAllTodos() {
         renderTodos(filterInput.value);
     }
 }
-// To Do List App with CRUD, filter, and validation
+// Pengaturan to do list
 
 const todoForm = document.getElementById('todo-form');
 const todoInput = document.getElementById('todo-input');
